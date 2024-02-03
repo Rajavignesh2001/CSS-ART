@@ -1,0 +1,122 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 400px 400px;
+  grid-template-columns: 50% 50%;
+}
+.flag {
+  background-color: white;
+  grid-row: span 4;
+}
+.house {
+  background-color: white;
+  grid-row: span 4;
+}
+.bottem {
+  background-color: brown;
+  grid-column: span 2;
+  height: 50px;
+  border: 5px solid black;
+}
+.flg {
+  border: 2px solid black;
+  height: 200px;
+  width: 350px;
+  margin-top: 100px;
+  margin-left: 300px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.safron {
+  height: 66.6px;
+  background-color: #ff671f;
+}
+.white {
+  height: 66.6px;
+  background-color: #ffffff;
+}
+.image {
+  height: 64px;
+  width: 64px;
+  margin-left: 140px;
+  margin-top: 1px;
+}
+.green {
+  height: 66.6px;
+  background-color: #046a38;
+}
+.stand {
+  border: 2px solid black;
+  height: 502px;
+  width: 10px;
+  margin-top: 0px;
+  margin-left: 300px;
+  background-color: lightgrey;
+}
+
+.top {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #6d2932;
+  height: 50px;
+  width: 510px;
+  margin-top: 348px;
+  margin-left: 95px;
+}
+.hbottem {
+  border: 3px solid black;
+  height: 400px;
+  width: 500px;
+  margin-left: 100px;
+  background-color: #faef5d;
+}
+.window {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: 117px;
+  margin-left: 320px;
+  background-color: brown;
+}
+.inner-window {
+  border: 2px solid black;
+  width: 90px;
+  height: 90px;
+  margin-top: 3px;
+  margin-left: 3px;
+  background-color: blanchedalmond;
+}
+.line1 {
+  border: 2px solid black;
+  margin-top: 45px;
+}
+.line2 {
+  margin-top: -14px;
+  border: 2px solid black;
+  transform: rotate(90deg);
+}
+.inner-door {
+  border: 3px solid black;
+  height: 270px;
+  width: 160px;
+  margin-left: 8px;
+  margin-top: 8px;
+  background-color: #e6baa3;
+}
+.handle {
+  border: 2px solid black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-top: 75%;
+  margin-left: 5px;
+  background-color: black;
+}
+.door {
+  border: 2px solid black;
+  width: 180px;
+  height: 280px;
+  margin-top: 117px;
+  margin-left: 30px;
+  background-color: brown;
+}
